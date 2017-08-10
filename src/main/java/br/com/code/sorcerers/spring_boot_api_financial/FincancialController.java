@@ -64,5 +64,19 @@ public class FincancialController {
 
 		return response;
 	}
+	
+	
+//		CamelContext camelContext = new DefaultCamelContext();
+//		
+//		camelContext.addRoutes(new SocketRouteBuilder());
+//		
+//		camelContext.start();
+	
+//		ProducerTemplate producerTemplate = camelContext.createProducerTemplate();
+//		Object object = producerTemplate.requestBody("seda:distribuidor", mensagem, String.class);
+		
+//		Exchange exchange = new DefaultExchange(camelContext);
+		
+//		String response = ExchangeHelper.convertToType(exchange, String.class, object);
 
 }
