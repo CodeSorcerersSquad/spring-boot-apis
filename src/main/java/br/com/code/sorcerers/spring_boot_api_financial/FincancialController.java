@@ -78,5 +78,31 @@ public class FincancialController {
 //		Exchange exchange = new DefaultExchange(camelContext);
 		
 //		String response = ExchangeHelper.convertToType(exchange, String.class, object);
+	
+	
+	
+	
+	
+	
+	/*
+	HttpClient client = new DefaultHttpClient();
+
+			HttpPost post = new HttpPost(url.toString());
+
+			List<NameValuePair> urlParameters = new ArrayList<NameValuePair>();
+			urlParameters.add(new BasicNameValuePair("body", payload));
+
+			post.setEntity(new UrlEncodedFormEntity(urlParameters));
+
+			HttpResponse response = client.execute(post);
+			BufferedReader rd = new BufferedReader(new InputStreamReader(response.getEntity().getContent()));
+
+			StringBuffer result = new StringBuffer();
+			String line = "";
+			while ((line = rd.readLine()) != null) {
+				result.append(line);
+			}
+	
+	*/
 
 }
