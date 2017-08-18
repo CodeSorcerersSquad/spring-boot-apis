@@ -15,15 +15,15 @@ public class Financial implements Serializable {
 	private long id;
     private String name;
     private String account;
-    private Double credit;
+    private Integer score;
     
     
     
-	public Financial(long id, String name, String account, Double credit) {
+	public Financial(long id, String name, String account, Integer score) {
 		this.id = id;
 		this.name = name;
 		this.account = account;
-		this.credit = credit;
+		this.score = score;
 	}
 	
 	public Financial(){}
@@ -52,12 +52,12 @@ public class Financial implements Serializable {
 		this.account = account;
 	}
 
-	public Double getCredit() {
-		return credit;
+	public Integer getScore() {
+		return score;
 	}
 
-	public void setCredit(Double credit) {
-		this.credit = credit;
+	public void setScore(Integer score) {
+		this.score = score;
 	}
 
 	
