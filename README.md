@@ -3,4 +3,4 @@ Spring boot apis
 
 
 # Example body
-{"id": 8, "name": "ABC", "score": 4, "account": "0689"}
+{"id": 8, "name": "ABC", "score": 1, "account": "0689"}
